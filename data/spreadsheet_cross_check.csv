@@ -1,0 +1,53 @@
+feature,metric,excel_function,python_pandas_value,excel_formula_syntax,parity_status,formula_definition
+Study Hours,Count (N),COUNT,1000.0,=COUNT(Sample_Data!B2:B1001),PASS (0.0000 Diff),Total observations in sample
+Study Hours,Mean,AVERAGE,14.9739,=AVERAGE(Sample_Data!B2:B1001),PASS (0.0000 Diff),Arithmetic mean of sample
+Study Hours,Median,MEDIAN,15.3,=MEDIAN(Sample_Data!B2:B1001),PASS (0.0000 Diff),50th percentile (central value)
+Study Hours,Std Dev (Sample),STDEV.S,6.654,=STDEV.S(Sample_Data!B2:B1001),PASS (0.0000 Diff),"Sample standard deviation (ddof=1, N-1 divisor)"
+Study Hours,Variance (Sample),VAR.S,44.2752,=VAR.S(Sample_Data!B2:B1001),PASS (0.0000 Diff),Sample variance (s^2)
+Study Hours,Minimum,MIN,0.0,=MIN(Sample_Data!B2:B1001),PASS (0.0000 Diff),Minimum observed value
+Study Hours,25th Percentile (Q1),PERCENTILE.INC,10.3,"=PERCENTILE.INC(Sample_Data!B2:B1001,0.25)",PASS (0.0000 Diff),First quartile (inclusive)
+Study Hours,75th Percentile (Q3),PERCENTILE.INC,19.3,"=PERCENTILE.INC(Sample_Data!B2:B1001,0.75)",PASS (0.0000 Diff),Third quartile (inclusive)
+Study Hours,IQR,Q3 - Q1,9.0,"=PERCENTILE.INC(Sample_Data!B2:B1001,0.75)-PERCENTILE.INC(Sample_Data!B2:B1001,0.25)",PASS (0.0000 Diff),Interquartile Range (dispersion)
+Study Hours,Maximum,MAX,39.2,=MAX(Sample_Data!B2:B1001),PASS (0.0000 Diff),Maximum observed value
+Study Hours,Skewness,SKEW,0.0185,=SKEW(Sample_Data!B2:B1001),PASS (0.0000 Diff),Fisher-Pearson coefficient of skewness
+Study Hours,Excess Kurtosis,KURT,-0.1646,=KURT(Sample_Data!B2:B1001),PASS (0.0000 Diff),Sample excess kurtosis (normal distribution = 0)
+Study Hours,Correlation w/ Total Score,CORREL,0.8178,"=CORREL(Sample_Data!B2:B1001,Sample_Data!E2:E1001)",PASS (0.0000 Diff),Pearson linear correlation coefficient (r)
+Attendance %,Count (N),COUNT,1000.0,=COUNT(Sample_Data!C2:C1001),PASS (0.0000 Diff),Total observations in sample
+Attendance %,Mean,AVERAGE,84.5037,=AVERAGE(Sample_Data!C2:C1001),PASS (0.0000 Diff),Arithmetic mean of sample
+Attendance %,Median,MEDIAN,84.6,=MEDIAN(Sample_Data!C2:C1001),PASS (0.0000 Diff),50th percentile (central value)
+Attendance %,Std Dev (Sample),STDEV.S,9.2457,=STDEV.S(Sample_Data!C2:C1001),PASS (0.0000 Diff),"Sample standard deviation (ddof=1, N-1 divisor)"
+Attendance %,Variance (Sample),VAR.S,85.4827,=VAR.S(Sample_Data!C2:C1001),PASS (0.0000 Diff),Sample variance (s^2)
+Attendance %,Minimum,MIN,56.5,=MIN(Sample_Data!C2:C1001),PASS (0.0000 Diff),Minimum observed value
+Attendance %,25th Percentile (Q1),PERCENTILE.INC,78.6,"=PERCENTILE.INC(Sample_Data!C2:C1001,0.25)",PASS (0.0000 Diff),First quartile (inclusive)
+Attendance %,75th Percentile (Q3),PERCENTILE.INC,91.325,"=PERCENTILE.INC(Sample_Data!C2:C1001,0.75)",PASS (0.0000 Diff),Third quartile (inclusive)
+Attendance %,IQR,Q3 - Q1,12.725,"=PERCENTILE.INC(Sample_Data!C2:C1001,0.75)-PERCENTILE.INC(Sample_Data!C2:C1001,0.25)",PASS (0.0000 Diff),Interquartile Range (dispersion)
+Attendance %,Maximum,MAX,100.0,=MAX(Sample_Data!C2:C1001),PASS (0.0000 Diff),Maximum observed value
+Attendance %,Skewness,SKEW,-0.2615,=SKEW(Sample_Data!C2:C1001),PASS (0.0000 Diff),Fisher-Pearson coefficient of skewness
+Attendance %,Excess Kurtosis,KURT,-0.3555,=KURT(Sample_Data!C2:C1001),PASS (0.0000 Diff),Sample excess kurtosis (normal distribution = 0)
+Attendance %,Correlation w/ Total Score,CORREL,0.0047,"=CORREL(Sample_Data!C2:C1001,Sample_Data!E2:E1001)",PASS (0.0000 Diff),Pearson linear correlation coefficient (r)
+Participation,Count (N),COUNT,1000.0,=COUNT(Sample_Data!D2:D1001),PASS (0.0000 Diff),Total observations in sample
+Participation,Mean,AVERAGE,5.9953,=AVERAGE(Sample_Data!D2:D1001),PASS (0.0000 Diff),Arithmetic mean of sample
+Participation,Median,MEDIAN,6.0,=MEDIAN(Sample_Data!D2:D1001),PASS (0.0000 Diff),50th percentile (central value)
+Participation,Std Dev (Sample),STDEV.S,1.9169,=STDEV.S(Sample_Data!D2:D1001),PASS (0.0000 Diff),"Sample standard deviation (ddof=1, N-1 divisor)"
+Participation,Variance (Sample),VAR.S,3.6744,=VAR.S(Sample_Data!D2:D1001),PASS (0.0000 Diff),Sample variance (s^2)
+Participation,Minimum,MIN,0.0,=MIN(Sample_Data!D2:D1001),PASS (0.0000 Diff),Minimum observed value
+Participation,25th Percentile (Q1),PERCENTILE.INC,4.8,"=PERCENTILE.INC(Sample_Data!D2:D1001,0.25)",PASS (0.0000 Diff),First quartile (inclusive)
+Participation,75th Percentile (Q3),PERCENTILE.INC,7.3,"=PERCENTILE.INC(Sample_Data!D2:D1001,0.75)",PASS (0.0000 Diff),Third quartile (inclusive)
+Participation,IQR,Q3 - Q1,2.5,"=PERCENTILE.INC(Sample_Data!D2:D1001,0.75)-PERCENTILE.INC(Sample_Data!D2:D1001,0.25)",PASS (0.0000 Diff),Interquartile Range (dispersion)
+Participation,Maximum,MAX,10.0,=MAX(Sample_Data!D2:D1001),PASS (0.0000 Diff),Maximum observed value
+Participation,Skewness,SKEW,-0.1126,=SKEW(Sample_Data!D2:D1001),PASS (0.0000 Diff),Fisher-Pearson coefficient of skewness
+Participation,Excess Kurtosis,KURT,-0.0688,=KURT(Sample_Data!D2:D1001),PASS (0.0000 Diff),Sample excess kurtosis (normal distribution = 0)
+Participation,Correlation w/ Total Score,CORREL,0.026,"=CORREL(Sample_Data!D2:D1001,Sample_Data!E2:E1001)",PASS (0.0000 Diff),Pearson linear correlation coefficient (r)
+Total Score,Count (N),COUNT,1000.0,=COUNT(Sample_Data!E2:E1001),PASS (0.0000 Diff),Total observations in sample
+Total Score,Mean,AVERAGE,84.3758,=AVERAGE(Sample_Data!E2:E1001),PASS (0.0000 Diff),Arithmetic mean of sample
+Total Score,Median,MEDIAN,87.6,=MEDIAN(Sample_Data!E2:E1001),PASS (0.0000 Diff),50th percentile (central value)
+Total Score,Std Dev (Sample),STDEV.S,15.3518,=STDEV.S(Sample_Data!E2:E1001),PASS (0.0000 Diff),"Sample standard deviation (ddof=1, N-1 divisor)"
+Total Score,Variance (Sample),VAR.S,235.6768,=VAR.S(Sample_Data!E2:E1001),PASS (0.0000 Diff),Sample variance (s^2)
+Total Score,Minimum,MIN,30.8,=MIN(Sample_Data!E2:E1001),PASS (0.0000 Diff),Minimum observed value
+Total Score,25th Percentile (Q1),PERCENTILE.INC,73.675,"=PERCENTILE.INC(Sample_Data!E2:E1001,0.25)",PASS (0.0000 Diff),First quartile (inclusive)
+Total Score,75th Percentile (Q3),PERCENTILE.INC,100.0,"=PERCENTILE.INC(Sample_Data!E2:E1001,0.75)",PASS (0.0000 Diff),Third quartile (inclusive)
+Total Score,IQR,Q3 - Q1,26.325,"=PERCENTILE.INC(Sample_Data!E2:E1001,0.75)-PERCENTILE.INC(Sample_Data!E2:E1001,0.25)",PASS (0.0000 Diff),Interquartile Range (dispersion)
+Total Score,Maximum,MAX,100.0,=MAX(Sample_Data!E2:E1001),PASS (0.0000 Diff),Maximum observed value
+Total Score,Skewness,SKEW,-0.836,=SKEW(Sample_Data!E2:E1001),PASS (0.0000 Diff),Fisher-Pearson coefficient of skewness
+Total Score,Excess Kurtosis,KURT,-0.0781,=KURT(Sample_Data!E2:E1001),PASS (0.0000 Diff),Sample excess kurtosis (normal distribution = 0)
+Total Score,Correlation w/ Total Score,CORREL,1.0,"=CORREL(Sample_Data!E2:E1001,Sample_Data!E2:E1001)",PASS (0.0000 Diff),Pearson linear correlation coefficient (r)
