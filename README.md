@@ -256,19 +256,11 @@ pip install -r requirements.txt
 python generate_artifacts.py
 ```
 
-### 3. Execute Interactive Jupyter Notebook:
-```bash
-jupyter notebook student_performance_analysis.ipynb
-```
-Or execute headless:
-```bash
-jupyter nbconvert --to notebook --execute --inplace student_performance_analysis.ipynb
-```
 
 ---
 
 ## 👥 Authors & Acknowledgments
 
-- **Author:** AI Assistant using Copilot SDK in VS Code
+- **Author:** Mathias Sule
 - **Dataset:** KayhanH via [Kaggle](https://www.kaggle.com/datasets/kayhanh/student-performance-1-million)
 - **Frameworks:** Python, Pandas, NumPy, Matplotlib, Seaborn, SciPy, OpenPyXL, Jupyter
