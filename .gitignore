@@ -21,3 +21,8 @@ dist/
 # Operating System Files
 .DS_Store
 Thumbs.db
+
+# Generated scripts
+build_notebook.py
+generate_artifacts.py
+student_performace.csv
